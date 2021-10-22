@@ -7,6 +7,7 @@ $(document).ready(function() {
         localStorage.setItem(time, value);
         console.log(time, value);
     })
+
     
     // Pull content saved in local storage to the text area and keep it there, even on refresh
     $("#hour-9").children("textarea").val(localStorage.getItem("hour-9"));
@@ -19,10 +20,12 @@ $(document).ready(function() {
     $("#hour-16").children("textarea").val(localStorage.getItem("hour-16"));
     $("#hour-17").children("textarea").val(localStorage.getItem("hour-17"));
     
+
     
     // Sets current date and day of the week in the header
     var currentDate = moment();
     $("#currentDay").text(currentDate.format("dddd, MMMM Do"));
+    
     
     
     // Updates background color according to time past, present or future
