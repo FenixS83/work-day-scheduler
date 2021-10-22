@@ -1,3 +1,4 @@
+// Script.js file for work day scheduler
 $(document).ready(function() {
     // On save button click, save hour + description to local storage
     $(".saveBtn").on("click", function() {
