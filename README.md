@@ -21,7 +21,7 @@ Schedules help keep even the busiest person on time.  It encourages organization
 This project allowed me to spend a little time getting more familiar with Jquery, Bootstrap and Moment.JS.  I have gained useful knowledge that I hope to be able to use for bigger and better projects in the future. 
 
 ### Screenshots of Work Day Scheduler
-![The Work Day Scheduler contains a hero banner in the header that contains the title and the current date and time.  The body section contains rows and columns. Each row has an hour assingment, a text input field and a save button.  All information enter and saved will be stored in local storage until such time that it is cleared.](./assets/images/Work Day Scheduler.png)
+![web image showing working work day scheduler](./assets/images/work-day-scheduler.png)
 
 ### Link to live website
 https://fenixs83.github.io/work-day-scheduler/
